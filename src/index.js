@@ -12,6 +12,7 @@ import reportWebVitals from './reportWebVitals';
 // );
 
 const WidgetDivs = document.querySelectorAll(".reddit_widget")
+console.log(WidgetDivs);
 
 WidgetDivs.forEach(Div => {
   ReactDOM.createRoot(Div).render(
